@@ -30,3 +30,7 @@ mount /dev/disk/by-label/boot /mnt/boot
 # NixOS configuration. TODO: use custom config from this repo
 nixos-generate-config --root /mnt
 vim /mnt/etc/nixos/configuration.nix
+
+# Install
+nixos-install
+reboot
