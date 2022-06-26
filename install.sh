@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 [ -z "$DISK" ] && echo 'Set $DISK variable to use script' && exit 1
 
 PRIMARY="${DISK}1"
